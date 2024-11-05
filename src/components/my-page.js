@@ -5,9 +5,14 @@ import { usePathname } from "next/navigation";
 import { DotcmsLayout } from "@dotcms/react";
 import { usePageAsset } from "@/hooks/usePageAsset";
 
-const componentsMap = new Proxy({}, {
-    get: () => (contentlet) => <div>{contentlet.contentType}</div>
-});
+const componentsMap = new Proxy(
+    {},
+    {
+        get: (target, prop) =>
+            target[prop] ||
+            ((contentlet) => <div>{contentlet.contentType}</div>),
+    }
+);
 
 export function MyPage({ pageAsset }) {
     const pathname = usePathname();
@@ -18,15 +23,15 @@ export function MyPage({ pageAsset }) {
         <DotcmsLayout
             pageContext={{
                 pageAsset,
-                components: componentsMap
+                components: componentsMap,
             }}
             config={{
                 pathname,
                 editor: {
                     params: {
-                        depth: 1
-                    }
-                }
+                        depth: 1,
+                    },
+                },
             }}
         />
     );
