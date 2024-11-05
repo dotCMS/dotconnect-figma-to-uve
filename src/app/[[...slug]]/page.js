@@ -6,7 +6,7 @@ export default async function Home({ params }) {
 
     const pageAsset = await client.page.get({
         path: slug || '',
-        depth: 2,
+        depth: 1,
     });
 
     return <MyPage pageAsset={pageAsset} />;

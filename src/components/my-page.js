@@ -24,7 +24,7 @@ export function MyPage({ pageAsset }) {
                 pathname,
                 editor: {
                     params: {
-                        depth: 2
+                        depth: 1
                     }
                 }
             }}
