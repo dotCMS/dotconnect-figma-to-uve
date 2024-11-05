@@ -1,0 +1,70 @@
+{
+  "hostName": "default",
+  "modDate": "2024-11-05 04:21:49.983",
+  "publishDate": "2024-11-05 04:21:50.006",
+  "title": "Explore the platform",
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "paragraph",
+        "attrs": { "textAlign": "left" },
+        "content": [
+          {
+            "type": "text",
+            "text": "Craft, Command, Convey, Conquer: Dot CMS - Elevating Your Content Experience"
+          }
+        ]
+      }
+    ]
+  },
+  "baseType": "CONTENT",
+  "inode": "59428b44-a686-4b16-b8ff-45107d9c1d22",
+  "archived": false,
+  "ownerName": "Admin User",
+  "host": "8a7d5e23-da1e-420a-b4f0-471e7da8ea2d",
+  "working": true,
+  "locked": false,
+  "stInode": "ef668576554993720468847de235d4e4",
+  "headline": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "heading",
+        "attrs": { "textAlign": "left", "level": 2 },
+        "content": [
+          { "type": "text", "text": "Design " },
+          {
+            "type": "text",
+            "marks": [{ "type": "bold" }],
+            "text": "unique and powerful"
+          },
+          { "type": "text", "text": " digital experiences for your brand" }
+        ]
+      }
+    ]
+  },
+  "contentType": "Banner",
+  "live": true,
+  "owner": "dotcms.org.1",
+  "identifier": "8130f551d1f7464f83b521216db5c6dd",
+  "publishUserName": "Admin User",
+  "publishUser": "dotcms.org.1",
+  "languageId": 1,
+  "creationDate": "2024-11-05 03:39:40.082",
+  "headline_raw": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"left\",\"level\":2},\"content\":[{\"type\":\"text\",\"text\":\"Design \"},{\"type\":\"text\",\"marks\":[{\"type\":\"bold\"}],\"text\":\"unique and powerful\"},{\"type\":\"text\",\"text\":\" digital experiences for your brand\"}]}]}",
+  "shortyId": "8130f551d1",
+  "url": "/content.59bfc7fa-d26d-4233-835c-d250f8f38f5c",
+  "titleImage": "TITLE_IMAGE_NOT_FOUND",
+  "modUserName": "Admin User",
+  "content_raw": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"text\":\"Craft, Command, Convey, Conquer: Dot CMS - Elevating Your Content Experience\"}]}]}",
+  "hasLiveVersion": true,
+  "folder": "SYSTEM_FOLDER",
+  "hasTitleImage": false,
+  "sortOrder": 0,
+  "modUser": "dotcms.org.1",
+  "preheadline": "Explore the platform",
+  "__icon__": "contentIcon",
+  "contentTypeIcon": "event_note",
+  "variant": "DEFAULT"
+}

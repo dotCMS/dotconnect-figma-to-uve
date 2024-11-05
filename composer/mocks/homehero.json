@@ -1,0 +1,69 @@
+{
+    "hostName": "default",
+    "modDate": "2024-11-05 04:21:22.005",
+    "publishDate": "2024-11-05 04:21:22.043",
+    "title": "Home Hero",
+    "content": {
+        "type": "doc",
+        "content": [
+            {
+                "type": "paragraph",
+                "attrs": { "textAlign": "left" },
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "dotCMS gives developers the flexibility to build the solution they need, while empowering content teams to create and manage the content that powers your business."
+                    }
+                ]
+            }
+        ]
+    },
+    "baseType": "CONTENT",
+    "inode": "edde26e0-4338-4589-87e8-e6f8918662e6",
+    "archived": false,
+    "ownerName": "Admin User",
+    "host": "8a7d5e23-da1e-420a-b4f0-471e7da8ea2d",
+    "working": true,
+    "locked": false,
+    "stInode": "ef668576554993720468847de235d4e4",
+    "headline": {
+        "type": "doc",
+        "content": [
+            {
+                "type": "heading",
+                "attrs": { "textAlign": "left", "level": 1 },
+                "content": [
+                    { "type": "text", "text": "Simplify " },
+                    {
+                        "type": "text",
+                        "marks": [{ "type": "bold" }],
+                        "text": "content management"
+                    },
+                    { "type": "text", "text": " effortlessly with our CMS" }
+                ]
+            }
+        ]
+    },
+    "contentType": "Banner",
+    "live": true,
+    "owner": "dotcms.org.1",
+    "identifier": "9de9353248f24c419143bbc4cd66373d",
+    "publishUserName": "Admin User",
+    "publishUser": "dotcms.org.1",
+    "languageId": 1,
+    "creationDate": "2024-11-05 03:38:47.344",
+    "headline_raw": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"textAlign\":\"left\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"Simplify \"},{\"type\":\"text\",\"marks\":[{\"type\":\"bold\"}],\"text\":\"content management\"},{\"type\":\"text\",\"text\":\" effortlessly with our CMS\"}]}]}",
+    "shortyId": "9de9353248",
+    "url": "/content.100a0a07-0808-41bb-a7e7-8defdf570538",
+    "titleImage": "TITLE_IMAGE_NOT_FOUND",
+    "modUserName": "Admin User",
+    "content_raw": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":\"left\"},\"content\":[{\"type\":\"text\",\"text\":\"dotCMS gives developers the flexibility to build the solution they need, while empowering content teams to create and manage the content that powers your business.\"}]}]}",
+    "hasLiveVersion": true,
+    "folder": "SYSTEM_FOLDER",
+    "hasTitleImage": false,
+    "sortOrder": 0,
+    "modUser": "dotcms.org.1",
+    "__icon__": "contentIcon",
+    "contentTypeIcon": "event_note",
+    "variant": "DEFAULT"
+}
