@@ -1,5 +1,6 @@
 import './globals.css';
 import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'DotCMS',
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
           <Navigation />
         </header>
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
