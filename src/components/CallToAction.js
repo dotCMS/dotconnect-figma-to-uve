@@ -9,7 +9,7 @@ export default function CallToAction({ label, href, variant = 'primary' }) {
   return (
     <Link
       href={href}
-      className={`px-6 py-2.5 rounded-[100px] border transition-colors duration-200 text-[16px] font-medium ${styles[variant]}`}
+      className={`inline-block whitespace-nowrap px-6 py-2.5 rounded-[100px] border transition-colors duration-200 text-[16px] font-medium ${styles[variant]}`}
     >
       {label}
     </Link>
