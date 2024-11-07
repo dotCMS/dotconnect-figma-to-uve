@@ -5,9 +5,11 @@ import { usePathname } from "next/navigation";
 import { DotcmsLayout } from "@dotcms/react";
 import { usePageAsset } from "@/hooks/usePageAsset";
 import Banner from './Banner'
+import LogoListing from './LogoListing'
 
 const components = {
-    Banner: (contentlet) => <Banner {...contentlet} />
+    Banner: (contentlet) => <Banner {...contentlet} />,
+    LogoListing: (contentlet) => <LogoListing {...contentlet} />
 };
 
 const componentsMap = new Proxy(components, {
