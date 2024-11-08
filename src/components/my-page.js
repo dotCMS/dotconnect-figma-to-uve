@@ -7,11 +7,13 @@ import { usePageAsset } from "@/hooks/usePageAsset";
 import Banner from './Banner'
 import LogoListing from './LogoListing'
 import Feature from './Feature'
+import Image from './Image'
 
 const components = {
     Banner: (contentlet) => <Banner {...contentlet} />,
     LogoListing: (contentlet) => <LogoListing {...contentlet} />,
-    Feature: (contentlet) => <Feature {...contentlet} />
+    Feature: (contentlet) => <Feature {...contentlet} />,
+    Image: (contentlet) => <Image {...contentlet} />
 };
 
 const componentsMap = new Proxy(components, {
