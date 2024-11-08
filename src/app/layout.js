@@ -1,5 +1,6 @@
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata = {
     title: "DotCMS",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
             <body>
                 <Header />
                 <main className="pt-[72px]">{children}</main>
+                <Footer />
             </body>
         </html>
     );
