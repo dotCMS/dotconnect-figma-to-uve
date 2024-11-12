@@ -1,6 +1,6 @@
-# Figma to Next.js to dotCMS UVA With AI
+# From Figma to UVE Page With AI
 
-This repo has all the assets used to enable AI to create a Next.js page that is fully manageable via dotCMS Universal Visual Editor.  It relies on [Cursor's IDE](https://www.cursor.com) and uses the Anthropic's latest Claude Sonnet model to read the figma prototypes and  build react components that use the dotCMS content model to render.
+This repo has all the assets used to enable AI to create a Next.js page that is fully manageable via dotCMS Universal Visual Editor (UVE).  It relies on [Cursor's IDE](https://www.cursor.com) and uses the Anthropic's latest Claude Sonnet model to read the figma prototypes and  build react components that use the dotCMS content model to render.
 
 ## What do you need?
 1. A dotCMS instance or you can use https://demo.dotcms.com
