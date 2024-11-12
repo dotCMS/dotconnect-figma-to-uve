@@ -4,7 +4,7 @@ DotCMS provides a Next.js example that shows how to build dotCMS pages heedlessl
 
 ## What do you need?
 1. A dotCMS instance or you can use https://demo.dotcms.com
-2. A valid AUTH token for the target instance (see: https://auth.dotcms.com/docs/latest/rest-api-authentication#creating-an-api-token-in-the-ui)
+2. A valid AUTH token for the target instance (see: https://www.dotcms.com/docs/latest/rest-api-authentication#creating-an-api-token-in-the-ui)
 3. Node js 18+ and npm installed
 4. Terminal
 5. And a code editor.
