@@ -1,4 +1,4 @@
-# dotCMS Next.js Example
+# dotCMS Figma to UVA With AI
 
 DotCMS provides a Next.js example that shows how to build dotCMS pages heedlessly with Next.js JavaScript framework.
 
