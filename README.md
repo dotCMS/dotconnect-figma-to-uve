@@ -10,6 +10,11 @@ This repo has all the assets used to enable AI to create a Next.js page that is 
 5. Node js 18+ and npm installed
 6. Terminal
 
+All the assets that are used to prompt AI are found in the [/composer](https://github.com/dotCMS/dotconnect-figma-to-uve/tree/dotconnect24/composer) folder the 
+
+
+
+
 
 ### Create the new Next.js application
 Open your terminal and let’s create the Next.js app by running the following:
