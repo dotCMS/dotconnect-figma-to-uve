@@ -1,13 +1,15 @@
-# dotCMS Figma to UVA With AI
+# Figma to Next.js to dotCMS UVA With AI
 
-DotCMS provides a Next.js example that shows how to build dotCMS pages heedlessly with Next.js JavaScript framework.
+This repo has all the assets used to enable AI to create a Next.js page that is fully manageable via dotCMS Universal Visual Editor.  It relies on [Cursor's IDE](https://www.cursor.com) and uses the Anthropic's latest Claude Sonnet model to read the figma prototypes and  build react components that use the dotCMS content model to render.
 
 ## What do you need?
 1. A dotCMS instance or you can use https://demo.dotcms.com
-2. A valid AUTH token for the target instance (see: https://www.dotcms.com/docs/latest/rest-api-authentication#creating-an-api-token-in-the-ui)
-3. Node js 18+ and npm installed
-4. Terminal
-5. And a code editor.
+2. Cursor's AI Enabled IDE - https://www.cursor.com
+3. A subscription to Cursor - as this allows you to use their "Composer" screen.
+4. A valid AUTH token for the target instance (see: https://www.dotcms.com/docs/latest/rest-api-authentication#creating-an-api-token-in-the-ui)
+5. Node js 18+ and npm installed
+6. Terminal
+
 
 ### Create the new Next.js application
 Open your terminal and let’s create the Next.js app by running the following:
